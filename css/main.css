@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Serif:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Noto+Serif:wght@700&display=swap');
+
+.container-fluid {
+    padding: 0% 3%;
+}
+
+#toTop {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    z-index: 11;
+    border: none;
+    background-image: url(../img/toTop.png);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0);
+    width: 50px;
+    height: 50px;
+}
+
+#toTop:hover {
+    opacity: 50%;
+}
+
+/* navbar */
+
+.header {
+    background-image: url(../img/header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 548px;
+}
+
+.header .content .navbar .container-fluid {
+    padding: 0px;
+}
+
+.header .content .navbar {
+    min-height: 98px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.header .content .navbar-nav button {
+    padding: 6px 0px 15px 0px;
+    color: gray;
+}
+
+.header .content .navbar-nav button:last-child {
+    padding-left: 15px;
+}
+
+.header .content .navbar-nav button:hover {
+    color: white;
+}
+
+/* header */
+
+.header .content .border-top {
+    margin-top: 2px
+}
+
+.header .content .babylon {
+    padding-top: 5%;
+}
+
+.header .content .babylon .left {
+    color: white;
+}
+
+.header .content .babylon .row .left {
+    width: 100%;
+}
+
+.header .content .babylon .row .right {
+    width: 100%;
+}
+
+.header .content .babylon .left .first {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.header .content .babylon .left .title h1 {
+    padding-top: 2%;
+
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    font-size: 46px;
+}
+
+.header .content .babylon .left .btn {
+    padding: 9px 48px;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+
+    font-size: 16px;
+}
+
+.header .content .babylon .right {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+@media screen and (min-width: 1200px) {
+    .header .content .navbar-nav .item {
+        padding: 0px 15px;
+        margin-top: 16px;
+    }
+
+    .header .content .navbar-nav a {
+        padding-bottom: 0px;
+        color: white;
+    }
+
+    .header .content .navbar-nav button {
+        padding-bottom: 0px;
+        margin-top: 15px;
+        color: gray;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+
+    .header .content .babylon .left div {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+/* about company */
+
+
+.main .about-us {
+    padding: 6% 0%;
+}
+
+.main .content .left h1 {
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.main .content .right .first {
+    padding-bottom: 6%;
+
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.main .content .right .item .media .media-body .title {
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.main .content .right .item p {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.main .content .right .item {
+    padding-bottom: 3%;
+}
+
+@media screen and (max-width: 1199px) {
+    .main .content .left {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 6%;
+    }
+}
+
+.main .content .about-company {
+    padding-bottom: 3%;
+}
+
+/* our services (некоторые стили описаны в about company) */
+
+.main .content .our-services {
+    background-color: #EDF0EE;
+}
+
+.main .content .our-services {
+    padding: 6% 0%;
+}
+
+.main .content .our-services .card {
+    padding: 5% 5% 0% 5%;
+}
+
+.main .content .our-services .card h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+    text-align: center;
+
+    margin-top: 5%;
+}
+
+.main .content .our-services .card:hover {
+    color: #008E41;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+    .main .content .our-services .second-row .second-card {
+        margin-top: 5%;
+    }
+}
+
+/* SCOPUS */
+.main .content .scopus {
+    padding: 6% 0%;
+}
+
+.main .content .scopus .item {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+    color: black;
+}
+
+.main .content .scopus .gray {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #A1A1A1;
+}
+
+.main .content .scopus .item:hover {
+    color: #008E41;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1199px) {
+    .main .content .scopus h1 {
+        text-align: center;
+    }
+}
+
+/* Reviews */
+
+.main .content .reviews {
+    background-image: url(../img/reviews.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 688px;
+
+    padding-bottom: 10%;
+}
+
+.main .content .reviews .buttons-row {
+    padding: 6% 0% 4% 0%;
+}
+
+.main .content .reviews .buttons-row .column {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.main .content .reviews .title {
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    font-size: 32px;
+
+    color: white;
+}
+
+.main .content .reviews .all-reviews {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+
+    color: white;
+    line-height: 34px;
+}
+
+.main .content .reviews .carousel-block {
+    background-color: white;
+}
+
+.main .reviews .slider .slider__item {
+    margin: 50px;
+}
+
+.main .content .reviews .slider .slider__item {
+    height: 188px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .content .reviews .slider .speech {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+
+    text-align: left;
+}
+
+.main .content .reviews .slider .name {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+    text-align: left;
+}
+
+.main .content .reviews .slider .degree {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+
+    text-align: left;
+}
+
+@media screen and (max-width: 1199px) {
+    .main .content .reviews .slider .slider__item {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main .content .reviews .slider .slider__item .column-img {
+        padding-bottom: 10%;
+    }
+
+    .main .content .reviews .slider .speech {
+
+        text-align: center;
+    }
+
+    .main .content .reviews .slider .name {
+
+        text-align: center;
+    }
+
+    .main .content .reviews .slider .degree {
+
+        text-align: center;
+    }
+}
+
+/* Contacts */
+
+.main .content .contacts {
+    padding: 8% 0% 5% 0%;
+}
+
+.main .content .contacts .first-line {
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.main .content .contacts .second-line {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.main .content .contacts .map iframe {
+    width: 100%;
+}
+
+@media screen and (max-width: 1199px) {
+    .main .content .contacts .contacts-content .main .column .left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding-bottom: 8%;
+    }
+
+    .main .content .contacts .contacts-content .main .column .left .left-item {
+        text-align: center;
+    }
+}
+
+/* partners */
+
+.main .content .partners #partners {
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    font-size: 32px;
+
+    padding-bottom: 6%;
+}
+
+.main .content .partners .list {
+    padding-bottom: 10%;
+}
+
+@media screen and (max-width: 1199px) {
+    .main .content .partners .slider-partners .slider__item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main .content .partners .slider-partners .slider__item .column-img {
+        padding-bottom: 3%;
+    }
+
+    .main .content .partners #partners {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* ideas */
+
+@media screen and (min-width: 1200px) {
+    .main .content .ideas {
+        background-image: url(../img/ideas.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 467px;
+    }
+}
+
+.main .content .ideas #title {
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    font-size: 32px;
+
+    padding: 15% 0% 6% 0%;
+}
+
+.main .content .ideas #text {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+
+    padding-bottom: 6%;
+}
+
+.main .content .ideas .btn {
+    width: 260px;
+}
+
+.main .content .ideas .left {
+    padding-bottom: 10%;
+}
+
+@media screen and (max-width: 1199px) {
+    .main .content .ideas {
+        background-color: #EDF0EE;
+    }
+
+    .main .content .ideas .main .column .left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding-bottom: 8%;
+    }
+
+    .main .content .ideas .main .column .left .left-item {
+        text-align: center;
+    }
+}
+
+/* footer */
+
+.footer {
+    background-color: #333333;
+    min-height: 120px;
+}
+
+.footer .nav-link {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+
+    color: white;
+}
+
+.footer .content .navbar .container-fluid {
+    padding: 0px;
+}
+
+.footer .content .navbar {
+    min-height: 120px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.footer .content .navbar-nav .item {
+    padding: 0px 15px 0px 15px;
+}
+
+.footer .content .navbar-nav a {
+    padding: 0px;
+    color: white;
+}
+
+/* translating */
+
+.skiptranslate {
+    display: none !important;
+}
+
+body {
+    top: 0px !important;
+}
+
+/* print button */
+
+.footer .content .print-btn {
+    display: flex;
+    justify-content: center;
+
+    padding-bottom: 1%;
+}
+
+.footer .content .print-btn .print {
+    background-image: url(../img/print.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 11;
+    border: none;
+}
+
+.row {
+    margin: 0px 0px;
+}

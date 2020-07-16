@@ -1,0 +1,47 @@
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+}
+
+/* Лента слайдов */
+.slick-track {
+    display: flex;
+    align-items: flex-start;
+}
+
+.slider,
+.slider-partners {
+    position: relative;
+}
+
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    margin: -19px 0px 0px 0px;
+    z-index: 10;
+    font-size: 0px;
+    width: 38px;
+    height: 38px;
+
+    border: none;
+}
+
+.slick-arrow.slick-prev {
+    left: 0;
+    background: url(../img/prev.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0px 0px;
+}
+
+.slick-arrow.slick-next {
+    right: 0;
+    background: url(../img/next.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0px 0px;
+}
+
+.slider__item {
+    text-align: center;
+}

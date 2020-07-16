@@ -1,0 +1,46 @@
+@media print {
+
+    .hidden-print {
+        display: none
+    }
+
+    .header {
+        min-height: 0px;
+    }
+
+    * {
+        background-color: white !important;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        line-height: 1.4em;
+        word-spacing: 1px;
+        letter-spacing: 0.2px;
+    }
+
+    a,
+    p,
+    h1,
+    div {
+        z-index: 9;
+        color: black !important;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .new-page {
+        page-break-after: always;
+    }
+
+    @page {
+        margin: 1cm
+    }
+
+    img,
+    .map {
+        max-width: 100% !important
+    }
+}
